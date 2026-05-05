@@ -40,7 +40,7 @@ The SHG is already getting strong **local** demand and now wants to:
 
 ## 3. Tech Stack
 
-- **Backend:** Laravel 13 (PHP 8.3+) — latest stable; pin the exact minor in `composer.json`
+- **Backend:** Laravel 13 (PHP 8.4) — latest stable; pin the exact minor in `composer.json`
 - **Database:** MySQL 8
 - **Frontend CSS:** Bootstrap 5 (compulsory)
 - **JavaScript:** **jQuery only** (NO vanilla JS anywhere)
@@ -48,7 +48,7 @@ The SHG is already getting strong **local** demand and now wants to:
 - **Payments:** Razorpay (primary, India-native) — abstracted behind a Gateway interface so PhonePe/Cashfree can be added later
 - **Storage:** Local `public/storage` for dev; S3-compatible for prod (recommended)
 - **Mail:** SMTP (transactional)
-- **Server:** Nginx + PHP-FPM 8.3, Ubuntu LTS
+- **Server:** Nginx + PHP-FPM 8.4, Ubuntu LTS
 
 ---
 
@@ -531,7 +531,7 @@ SUPPORT_PHONE=
 ```
 
 Deployment recipe (high level):
-1. Provision Ubuntu LTS + Nginx + PHP 8.3 + MySQL 8.
+1. Provision Ubuntu LTS + Nginx + PHP 8.4 + MySQL 8.
 2. Clone repo, `composer install --no-dev`, `php artisan migrate --force`, `php artisan storage:link`, `php artisan config:cache`, `php artisan route:cache`.
 3. Set up SSL via Let's Encrypt.
 4. Daily DB backup cron + weekly off-server copy.
