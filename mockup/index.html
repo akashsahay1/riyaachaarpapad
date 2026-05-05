@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Riya — Homemade Pickles, Bari & Papads from Garhwa</title>
+    <meta name="description" content="Hand-crafted lemon pickle, mango pickle, mushroom pickle, soya bari and papads — made by women SHG in Garhwa, Jharkhand. FSSAI & GST registered. Pan-India delivery.">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="theme-tulsi" data-theme="theme-tulsi">
+
+    <!-- ===== HEADER ===== -->
+    <div class="rp-topbar">
+        <div class="container d-flex flex-wrap justify-content-between align-items-center">
+            <div class="rp-topbar-left">
+                <span class="me-3"><i class="bi bi-truck"></i> Free shipping above &#8377;499</span>
+                <span class="d-none d-md-inline">FSSAI Lic. 12345678901234</span>
+            </div>
+            <div class="rp-topbar-right">
+                <span class="d-none d-md-inline me-3">GSTIN 20ABCDE1234F1Z5</span>
+                <a href="#" class="rp-topbar-link me-3">Track Order</a>
+                <a href="#" class="rp-topbar-link">Help</a>
+            </div>
+        </div>
+    </div>
+
+    <header class="rp-header">
+        <div class="container">
+            <div class="row align-items-center g-3">
+                <div class="col-6 col-lg-2">
+                    <a href="#" class="rp-logo">
+                        <span class="rp-logo-mark">R</span>
+                        <span class="rp-logo-text">
+                            <strong>Riya</strong>
+                            <small>Achaar &amp; Papad</small>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-12 col-lg-6 order-3 order-lg-2">
+                    <form action="#" method="GET" class="rp-search" role="search">
+                        <input type="search" name="q" class="form-control rp-search-input" placeholder="Search lemon pickle, mango achaar, soya bari..." aria-label="Search products">
+                        <button type="submit" class="btn rp-search-btn"><i class="bi bi-search"></i><span class="d-none d-sm-inline ms-1">Search</span></button>
+                    </form>
+                </div>
+                <div class="col-6 col-lg-4 order-2 order-lg-3 text-end">
+                    <div class="rp-header-actions">
+                        <a href="#" class="rp-action-link d-none d-md-inline-flex">
+                            <i class="bi bi-person"></i><span>Login</span>
+                        </a>
+                        <a href="#" class="rp-action-link">
+                            <i class="bi bi-heart"></i><span class="d-none d-md-inline">Wishlist</span>
+                        </a>
+                        <a href="#" class="rp-action-link rp-action-cart">
+                            <i class="bi bi-bag"></i><span class="d-none d-md-inline">Cart</span>
+                            <span class="rp-cart-badge" id="rp-cart-count">0</span>
+                        </a>
+                        <button type="button" class="btn rp-theme-pill" id="rp-theme-toggle" title="Switch demo theme" aria-label="Switch demo theme">
+                            <i class="bi bi-palette-fill"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ===== INNER HEADER (Categories) ===== -->
+    <nav class="rp-catnav" aria-label="Categories">
+        <div class="container">
+            <ul class="rp-catnav-list">
+                <li><a href="#" class="active">All</a></li>
+                <li><a href="#">Pickles</a></li>
+                <li><a href="#">Bari</a></li>
+                <li><a href="#">Papads</a></li>
+                <li><a href="#">Combos</a></li>
+                <li><a href="#">New Arrivals</a></li>
+                <li class="ms-auto d-none d-md-block">
+                    <a href="#" class="rp-catnav-offer">
+                        <i class="bi bi-tag-fill"></i> Today's Offers
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="page-home">
+
+        <!-- ===== HERO ===== -->
+        <section class="rp-hero">
+            <div class="container">
+                <div id="rp-hero-carousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#rp-hero-carousel" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#rp-hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#rp-hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active rp-hero-slide rp-hero-slide-1">
+                            <div class="rp-hero-card">
+                                <span class="rp-hero-eyebrow">Festive special</span>
+                                <h1 class="rp-hero-title">Sun-cooked. Hand-pounded.<br>Ready to meet your thali.</h1>
+                                <p class="rp-hero-sub">Lemon, mango, mirchi, garlic — six flavours in our signature mustard-oil base.</p>
+                                <a href="#" class="btn rp-btn-primary btn-lg">Shop pickles</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item rp-hero-slide rp-hero-slide-2">
+                            <div class="rp-hero-card">
+                                <span class="rp-hero-eyebrow rp-hero-eyebrow-accent">Bestseller</span>
+                                <h1 class="rp-hero-title">Garhwa's favourite Lemon Achaar — now pan-India.</h1>
+                                <p class="rp-hero-sub">From 100g pocket-packs to a full 1kg jar. Free shipping above &#8377;499.</p>
+                                <a href="#" class="btn rp-btn-primary btn-lg">Buy now</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item rp-hero-slide rp-hero-slide-3">
+                            <div class="rp-hero-card">
+                                <span class="rp-hero-eyebrow">Made by women</span>
+                                <h1 class="rp-hero-title">Every jar supports a Self-Help Group.</h1>
+                                <p class="rp-hero-sub">Tiriya Kisan FPC, Garhwa — FSSAI &amp; GST registered, 100% homemade.</p>
+                                <a href="#" class="btn rp-btn-primary btn-lg">Our story</a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#rp-hero-carousel" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span><span class="visually-hidden">Previous</span></button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#rp-hero-carousel" data-bs-slide="next"><span class="carousel-control-next-icon"></span><span class="visually-hidden">Next</span></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CATEGORY TILES ===== -->
+        <section class="rp-section rp-categories">
+            <div class="container">
+                <div class="rp-section-head"><h2 class="rp-section-title">Shop by category</h2></div>
+                <div class="row g-3 g-md-4 row-cols-3 row-cols-md-6 text-center">
+                    <div class="col"><a href="#" class="rp-cat-tile"><span class="rp-cat-tile-img"><img src="https://placehold.co/200x200/2e8b57/ffffff?text=Lemon" alt="Lemon"></span><span class="rp-cat-tile-label">Lemon</span></a></div>
+                    <div class="col"><a href="#" class="rp-cat-tile"><span class="rp-cat-tile-img"><img src="https://placehold.co/200x200/e67e22/ffffff?text=Mango" alt="Mango"></span><span class="rp-cat-tile-label">Mango</span></a></div>
+                    <div class="col"><a href="#" class="rp-cat-tile"><span class="rp-cat-tile-img"><img src="https://placehold.co/200x200/c0392b/ffffff?text=Mirchi" alt="Mirchi"></span><span class="rp-cat-tile-label">Mirchi</span></a></div>
+                    <div class="col"><a href="#" class="rp-cat-tile"><span class="rp-cat-tile-img"><img src="https://placehold.co/200x200/8e44ad/ffffff?text=Garlic" alt="Garlic"></span><span class="rp-cat-tile-label">Garlic</span></a></div>
+                    <div class="col"><a href="#" class="rp-cat-tile"><span class="rp-cat-tile-img"><img src="https://placehold.co/200x200/d4a017/ffffff?text=Bari" alt="Bari"></span><span class="rp-cat-tile-label">Bari</span></a></div>
+                    <div class="col"><a href="#" class="rp-cat-tile"><span class="rp-cat-tile-img"><img src="https://placehold.co/200x200/1f7a3a/ffffff?text=Papads" alt="Papads"></span><span class="rp-cat-tile-label">Papads</span></a></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== BESTSELLERS ===== -->
+        <section class="rp-section rp-bestsellers">
+            <div class="container">
+                <div class="rp-section-head">
+                    <h2 class="rp-section-title">Bestsellers from the kitchen</h2>
+                    <a href="#" class="rp-section-link">View all <i class="bi bi-arrow-right"></i></a>
+                </div>
+                <div class="row g-3 row-cols-2 row-cols-md-3 row-cols-lg-5">
+
+                    <div class="col"><article class="rp-product-card">
+                        <a href="#" class="rp-product-link">
+                            <div class="rp-product-img"><img src="https://placehold.co/600x600/2e8b57/ffffff?text=Lemon+Achaar" alt="Lemon Pickle" loading="lazy"><span class="rp-product-tag">Bestseller</span></div>
+                            <div class="rp-product-body">
+                                <h3 class="rp-product-name">Lemon Pickle</h3>
+                                <div class="rp-product-meta"><span class="rp-product-weight">500g</span><span class="rp-product-rating"><i class="bi bi-star-fill"></i> 4.7 <small>(312)</small></span></div>
+                                <div class="rp-product-price"><span class="rp-price-sale">&#8377;199</span><span class="rp-price-reg">&#8377;249</span><span class="rp-price-off">20% off</span></div>
+                            </div>
+                        </a>
+                        <div class="rp-product-actions">
+                            <button type="button" class="rp-wish-btn" aria-label="Add to wishlist" data-slug="lemon-pickle"><i class="bi bi-heart"></i></button>
+                            <button type="button" class="rp-add-btn" data-slug="lemon-pickle"><i class="bi bi-bag-plus"></i> Add</button>
+                        </div>
+                    </article></div>
+
+                    <div class="col"><article class="rp-product-card">
+                        <a href="#" class="rp-product-link">
+                            <div class="rp-product-img"><img src="https://placehold.co/600x600/e67e22/ffffff?text=Mango+Achaar" alt="Mango Pickle" loading="lazy"><span class="rp-product-tag">New</span></div>
+                            <div class="rp-product-body">
+                                <h3 class="rp-product-name">Mango Pickle</h3>
+                                <div class="rp-product-meta"><span class="rp-product-weight">500g</span><span class="rp-product-rating"><i class="bi bi-star-fill"></i> 4.6 <small>(208)</small></span></div>
+                                <div class="rp-product-price"><span class="rp-price-sale">&#8377;189</span><span class="rp-price-reg">&#8377;229</span><span class="rp-price-off">17% off</span></div>
+                            </div>
+                        </a>
+                        <div class="rp-product-actions">
+                            <button type="button" class="rp-wish-btn" aria-label="Add to wishlist" data-slug="mango-pickle"><i class="bi bi-heart"></i></button>
+                            <button type="button" class="rp-add-btn" data-slug="mango-pickle"><i class="bi bi-bag-plus"></i> Add</button>
+                        </div>
+                    </article></div>
+
+                    <div class="col"><article class="rp-product-card">
+                        <a href="#" class="rp-product-link">
+                            <div class="rp-product-img"><img src="https://placehold.co/600x600/c0392b/ffffff?text=Mirchi+Achaar" alt="Green Chilli Pickle" loading="lazy"><span class="rp-product-tag">Spicy</span></div>
+                            <div class="rp-product-body">
+                                <h3 class="rp-product-name">Green Chilli Pickle</h3>
+                                <div class="rp-product-meta"><span class="rp-product-weight">500g</span><span class="rp-product-rating"><i class="bi bi-star-fill"></i> 4.5 <small>(164)</small></span></div>
+                                <div class="rp-product-price"><span class="rp-price-sale">&#8377;179</span><span class="rp-price-reg">&#8377;219</span><span class="rp-price-off">18% off</span></div>
+                            </div>
+                        </a>
+                        <div class="rp-product-actions">
+                            <button type="button" class="rp-wish-btn" aria-label="Add to wishlist" data-slug="mirchi-pickle"><i class="bi bi-heart"></i></button>
+                            <button type="button" class="rp-add-btn" data-slug="mirchi-pickle"><i class="bi bi-bag-plus"></i> Add</button>
+                        </div>
+                    </article></div>
+
+                    <div class="col"><article class="rp-product-card">
+                        <a href="#" class="rp-product-link">
+                            <div class="rp-product-img"><img src="https://placehold.co/600x600/8e44ad/ffffff?text=Garlic+Achaar" alt="Garlic Pickle" loading="lazy"><span class="rp-product-tag">Limited</span></div>
+                            <div class="rp-product-body">
+                                <h3 class="rp-product-name">Garlic Pickle</h3>
+                                <div class="rp-product-meta"><span class="rp-product-weight">500g</span><span class="rp-product-rating"><i class="bi bi-star-fill"></i> 4.8 <small>(97)</small></span></div>
+                                <div class="rp-product-price"><span class="rp-price-sale">&#8377;219</span><span class="rp-price-reg">&#8377;269</span><span class="rp-price-off">19% off</span></div>
+                            </div>
+                        </a>
+                        <div class="rp-product-actions">
+                            <button type="button" class="rp-wish-btn" aria-label="Add to wishlist" data-slug="garlic-pickle"><i class="bi bi-heart"></i></button>
+                            <button type="button" class="rp-add-btn" data-slug="garlic-pickle"><i class="bi bi-bag-plus"></i> Add</button>
+                        </div>
+                    </article></div>
+
+                    <div class="col"><article class="rp-product-card">
+                        <a href="#" class="rp-product-link">
+                            <div class="rp-product-img"><img src="https://placehold.co/600x600/5d4037/ffffff?text=Mushroom" alt="Mushroom Pickle" loading="lazy"><span class="rp-product-tag">Premium</span></div>
+                            <div class="rp-product-body">
+                                <h3 class="rp-product-name">Mushroom Pickle</h3>
+                                <div class="rp-product-meta"><span class="rp-product-weight">300g</span><span class="rp-product-rating"><i class="bi bi-star-fill"></i> 4.9 <small>(54)</small></span></div>
+                                <div class="rp-product-price"><span class="rp-price-sale">&#8377;299</span><span class="rp-price-reg">&#8377;349</span><span class="rp-price-off">14% off</span></div>
+                            </div>
+                        </a>
+                        <div class="rp-product-actions">
+                            <button type="button" class="rp-wish-btn" aria-label="Add to wishlist" data-slug="mushroom-pickle"><i class="bi bi-heart"></i></button>
+                            <button type="button" class="rp-add-btn" data-slug="mushroom-pickle"><i class="bi bi-bag-plus"></i> Add</button>
+                        </div>
+                    </article></div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== TRUST BAND ===== -->
+        <section class="rp-trustband">
+            <div class="container">
+                <div class="row g-3 g-md-0 text-center">
+                    <div class="col-6 col-md-3 rp-trust-item"><i class="bi bi-shield-check"></i><span><strong>FSSAI</strong> registered</span></div>
+                    <div class="col-6 col-md-3 rp-trust-item"><i class="bi bi-receipt"></i><span><strong>GST</strong> registered</span></div>
+                    <div class="col-6 col-md-3 rp-trust-item"><i class="bi bi-house-heart"></i><span><strong>100%</strong> hand-made</span></div>
+                    <div class="col-6 col-md-3 rp-trust-item"><i class="bi bi-truck"></i><span><strong>Pan-India</strong> delivery</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== NEW ARRIVALS ===== -->
+        <section class="rp-section rp-newarrivals">
+            <div class="container">
+                <div class="rp-section-head">
+                    <h2 class="rp-section-title">New from the kitchen</h2>
+                    <a href="#" class="rp-section-link">See more <i class="bi bi-arrow-right"></i></a>
+                </div>
+                <div class="row g-3 row-cols-2 row-cols-md-3 row-cols-lg-5">
+
+                    <div class="col"><article class="rp-product-card">
+                        <a href="#" class="rp-product-link">
+                            <div class="rp-product-img"><img src="https://placehold.co/600x600/d4a017/ffffff?text=Soya+Bari" alt="Soya Bari" loading="lazy"><span class="rp-product-tag">Protein</span></div>
+                            <div class="rp-product-body">
+                                <h3 class="rp-product-name">Soya Bari</h3>
+                                <div class="rp-product-meta"><span class="rp-product-weight">200g</span><span class="rp-product-rating"><i class="bi bi-star-fill"></i> 4.6 <small>(78)</small></span></div>
+                                <div class="rp-product-price"><span class="rp-price-sale">&#8377;129</span><span class="rp-price-reg">&#8377;149</span><span class="rp-price-off">13% off</span></div>
+                            </div>
+                        </a>
+                        <div class="rp-product-actions">
+                            <button type="button" class="rp-wish-btn" aria-label="Add to wishlist" data-slug="soya-bari"><i class="bi bi-heart"></i></button>
+                            <button type="button" class="rp-add-btn" data-slug="soya-bari"><i class="bi bi-bag-plus"></i> Add</button>
+                        </div>
+                    </article></div>
+
+                    <div class="col"><article class="rp-product-card">
+                        <a href="#" class="rp-product-link">
+                            <div class="rp-product-img"><img src="https://placehold.co/600x600/a0522d/ffffff?text=Urid+Bari" alt="Urid Bari" loading="lazy"><span class="rp-product-tag">Traditional</span></div>
+                            <div class="rp-product-body">
+                                <h3 class="rp-product-name">Urid Bari</h3>
+                                <div class="rp-product-meta"><span class="rp-product-weight">200g</span><span class="rp-product-rating"><i class="bi bi-star-fill"></i> 4.7 <small>(62)</small></span></div>
+                                <div class="rp-product-price"><span class="rp-price-sale">&#8377;139</span><span class="rp-price-reg">&#8377;169</span><span class="rp-price-off">18% off</span></div>
+                            </div>
+                        </a>
+                        <div class="rp-product-actions">
+                            <button type="button" class="rp-wish-btn" aria-label="Add to wishlist" data-slug="urid-bari"><i class="bi bi-heart"></i></button>
+                            <button type="button" class="rp-add-btn" data-slug="urid-bari"><i class="bi bi-bag-plus"></i> Add</button>
+                        </div>
+                    </article></div>
+
+                    <div class="col"><article class="rp-product-card">
+                        <a href="#" class="rp-product-link">
+                            <div class="rp-product-img"><img src="https://placehold.co/600x600/d35400/ffffff?text=Masala+Papad" alt="Masala Papad" loading="lazy"><span class="rp-product-tag">Crispy</span></div>
+                            <div class="rp-product-body">
+                                <h3 class="rp-product-name">Masala Papad</h3>
+                                <div class="rp-product-meta"><span class="rp-product-weight">200g</span><span class="rp-product-rating"><i class="bi bi-star-fill"></i> 4.5 <small>(41)</small></span></div>
+                                <div class="rp-product-price"><span class="rp-price-sale">&#8377;99</span><span class="rp-price-reg">&#8377;119</span><span class="rp-price-off">17% off</span></div>
+                            </div>
+                        </a>
+                        <div class="rp-product-actions">
+                            <button type="button" class="rp-wish-btn" aria-label="Add to wishlist" data-slug="masala-papad"><i class="bi bi-heart"></i></button>
+                            <button type="button" class="rp-add-btn" data-slug="masala-papad"><i class="bi bi-bag-plus"></i> Add</button>
+                        </div>
+                    </article></div>
+
+                    <div class="col"><article class="rp-product-card">
+                        <a href="#" class="rp-product-link">
+                            <div class="rp-product-img"><img src="https://placehold.co/600x600/8b6f47/ffffff?text=Urid+Papad" alt="Urid Papad" loading="lazy"><span class="rp-product-tag">Classic</span></div>
+                            <div class="rp-product-body">
+                                <h3 class="rp-product-name">Urid Papad</h3>
+                                <div class="rp-product-meta"><span class="rp-product-weight">200g</span><span class="rp-product-rating"><i class="bi bi-star-fill"></i> 4.4 <small>(33)</small></span></div>
+                                <div class="rp-product-price"><span class="rp-price-sale">&#8377;89</span><span class="rp-price-reg">&#8377;109</span><span class="rp-price-off">18% off</span></div>
+                            </div>
+                        </a>
+                        <div class="rp-product-actions">
+                            <button type="button" class="rp-wish-btn" aria-label="Add to wishlist" data-slug="urid-papad"><i class="bi bi-heart"></i></button>
+                            <button type="button" class="rp-add-btn" data-slug="urid-papad"><i class="bi bi-bag-plus"></i> Add</button>
+                        </div>
+                    </article></div>
+
+                    <div class="col"><article class="rp-product-card">
+                        <a href="#" class="rp-product-link">
+                            <div class="rp-product-img"><img src="https://placehold.co/600x600/1f7a3a/ffffff?text=Trio+Combo" alt="Achaar Trio Combo" loading="lazy"><span class="rp-product-tag">Combo</span></div>
+                            <div class="rp-product-body">
+                                <h3 class="rp-product-name">Achaar Trio Combo</h3>
+                                <div class="rp-product-meta"><span class="rp-product-weight">600g</span><span class="rp-product-rating"><i class="bi bi-star-fill"></i> 4.8 <small>(121)</small></span></div>
+                                <div class="rp-product-price"><span class="rp-price-sale">&#8377;499</span><span class="rp-price-reg">&#8377;649</span><span class="rp-price-off">23% off</span></div>
+                            </div>
+                        </a>
+                        <div class="rp-product-actions">
+                            <button type="button" class="rp-wish-btn" aria-label="Add to wishlist" data-slug="achaar-trio"><i class="bi bi-heart"></i></button>
+                            <button type="button" class="rp-add-btn" data-slug="achaar-trio"><i class="bi bi-bag-plus"></i> Add</button>
+                        </div>
+                    </article></div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== STORYBAND ===== -->
+        <section class="rp-storyband">
+            <div class="container">
+                <div class="row align-items-center g-4">
+                    <div class="col-md-5">
+                        <img src="https://placehold.co/700x500/14532d/ffffff?text=SHG+Women+of+Garhwa" alt="SHG women of Garhwa preparing pickles" class="rp-storyband-img">
+                    </div>
+                    <div class="col-md-7">
+                        <span class="rp-eyebrow">Our story</span>
+                        <h2 class="rp-storyband-title">From the kitchens of Garhwa to your dining table</h2>
+                        <p>Riya is the brand of <strong>Tiriya Kisan Farmer Producer Company Ltd.</strong> — a Self-Help Group of women farmers from Garhwa, Jharkhand. Every jar you buy supports a household in rural India.</p>
+                        <ul class="rp-storyband-points">
+                            <li><i class="bi bi-check2-circle"></i> Cold-pressed mustard oil base</li>
+                            <li><i class="bi bi-check2-circle"></i> No preservatives, no artificial colours</li>
+                            <li><i class="bi bi-check2-circle"></i> Slow sun-cured, the way grandma made it</li>
+                        </ul>
+                        <a href="#" class="btn rp-btn-outline">Read our story</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== TESTIMONIALS ===== -->
+        <section class="rp-section rp-testimonials">
+            <div class="container">
+                <div class="rp-section-head"><h2 class="rp-section-title">What our customers say</h2></div>
+                <div class="row g-4 row-cols-1 row-cols-md-3">
+                    <div class="col"><article class="rp-testimonial">
+                        <div class="rp-stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                        <p>"The lemon achaar reminds me of my dadi's recipe. Packaging was leak-proof and arrived in 4 days to Bengaluru."</p>
+                        <footer>— Anjali R., Bengaluru</footer>
+                    </article></div>
+                    <div class="col"><article class="rp-testimonial">
+                        <div class="rp-stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                        <p>"Soya bari is the best I've had outside home. My kids finished the 200g pack in two days."</p>
+                        <footer>— Priya S., Pune</footer>
+                    </article></div>
+                    <div class="col"><article class="rp-testimonial">
+                        <div class="rp-stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i></div>
+                        <p>"Love that the brand supports women SHGs. The garlic pickle is fiery and full of flavour."</p>
+                        <footer>— Rohit M., Delhi</footer>
+                    </article></div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="rp-footer">
+        <div class="rp-footer-main">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <h5 class="rp-footer-heading">About Riya</h5>
+                        <p class="rp-footer-about">Riya is the brand of <strong>Tiriya Kisan Farmer Producer Company Ltd., Garhwa</strong> — a women-led Self-Help Group making hand-crafted pickles, bari and papads using traditional recipes.</p>
+                        <div class="rp-cert-row">
+                            <span class="rp-cert">FSSAI<br><small>12345678901234</small></span>
+                            <span class="rp-cert">GSTIN<br><small>20ABCDE1234F1Z5</small></span>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <h5 class="rp-footer-heading">Shop</h5>
+                        <ul class="rp-footer-links">
+                            <li><a href="#">Pickles</a></li><li><a href="#">Bari</a></li><li><a href="#">Papads</a></li><li><a href="#">Combos</a></li><li><a href="#">New Arrivals</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <h5 class="rp-footer-heading">Company</h5>
+                        <ul class="rp-footer-links">
+                            <li><a href="#">About Us</a></li><li><a href="#">Contact</a></li><li><a href="#">Privacy Policy</a></li><li><a href="#">Terms of Service</a></li><li><a href="#">Refund Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h5 class="rp-footer-heading">Stay in the kitchen</h5>
+                        <p class="rp-footer-about">Subscribe for festive offers, new flavours and recipes.</p>
+                        <form class="rp-newsletter" id="rp-newsletter-form">
+                            <input type="email" class="form-control" placeholder="your@email.com" required>
+                            <button type="submit" class="btn rp-newsletter-btn">Subscribe</button>
+                        </form>
+                        <div class="rp-social">
+                            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                            <a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+                            <a href="#" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rp-footer-bottom">
+            <div class="container d-flex flex-wrap justify-content-between align-items-center">
+                <small>&copy; 2026 Tiriya Kisan FPC Ltd. — Brand: Riya. All rights reserved.</small>
+                <small class="rp-payments">Secure payments: UPI · Cards · Net Banking · Razorpay · COD</small>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Shared modal (replaces all alert/confirm/prompt site-wide) -->
+    <div class="modal fade" id="rp-modal" tabindex="-1" aria-hidden="true" aria-labelledby="rp-modal-title">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="rp-modal-title">Notice</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="rp-modal-body"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn rp-btn-primary" id="rp-modal-ok" data-bs-dismiss="modal">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="rp-toast-region" id="rp-toast-region" aria-live="polite" aria-atomic="true"></div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/style.js"></script>
+</body>
+</html>
