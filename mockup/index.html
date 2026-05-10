@@ -65,7 +65,6 @@
         </div>
     </header>
 
-    <!-- ===== INNER HEADER (Categories) ===== -->
     <nav class="rp-catnav" aria-label="Categories">
         <div class="container">
             <ul class="rp-catnav-list">
@@ -75,11 +74,7 @@
                 <li><a href="#">Papads</a></li>
                 <li><a href="#">Combos</a></li>
                 <li><a href="#">New Arrivals</a></li>
-                <li class="ms-auto d-none d-md-block">
-                    <a href="#" class="rp-catnav-offer">
-                        <i class="bi bi-tag-fill"></i> Today's Offers
-                    </a>
-                </li>
+                <li class="ms-auto d-none d-md-block"><a href="#" class="rp-catnav-offer"><i class="bi bi-tag-fill"></i> Today's Offers</a></li>
             </ul>
         </div>
     </nav>
@@ -96,28 +91,34 @@
                         <button type="button" data-bs-target="#rp-hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
                     </div>
                     <div class="carousel-inner">
-                        <div class="carousel-item active rp-hero-slide rp-hero-slide-1">
-                            <div class="rp-hero-card">
-                                <span class="rp-hero-eyebrow">Festive special</span>
-                                <h1 class="rp-hero-title">Sun-cooked. Hand-pounded.<br>Ready to meet your thali.</h1>
-                                <p class="rp-hero-sub">Lemon, mango, mirchi, garlic — six flavours in our signature mustard-oil base.</p>
-                                <a href="#" class="btn rp-btn-primary btn-lg">Shop pickles</a>
+                        <div class="carousel-item active">
+                            <div class="rp-hero-slide rp-hero-slide-1" style="background-image: linear-gradient(110deg, rgba(20,164,68,0.85) 0%, rgba(255,48,48,0.65) 100%), url('https://loremflickr.com/1600/600/indian,spices,jar?lock=hero1');">
+                                <div class="rp-hero-card">
+                                    <span class="rp-hero-eyebrow">Festive special</span>
+                                    <h1 class="rp-hero-title">Sun-cooked. Hand-pounded.<br>Ready to meet your thali.</h1>
+                                    <p class="rp-hero-sub">Six flavours in our signature mustard-oil base — lemon, mango, mirchi, garlic and more.</p>
+                                    <a href="#" class="btn rp-btn-primary btn-lg">Shop pickles</a>
+                                </div>
                             </div>
                         </div>
-                        <div class="carousel-item rp-hero-slide rp-hero-slide-2">
-                            <div class="rp-hero-card">
-                                <span class="rp-hero-eyebrow rp-hero-eyebrow-accent">Bestseller</span>
-                                <h1 class="rp-hero-title">Garhwa's favourite Lemon Achaar — now pan-India.</h1>
-                                <p class="rp-hero-sub">From 100g pocket-packs to a full 1kg jar. Free shipping above &#8377;499.</p>
-                                <a href="#" class="btn rp-btn-primary btn-lg">Buy now</a>
+                        <div class="carousel-item">
+                            <div class="rp-hero-slide rp-hero-slide-2" style="background-image: linear-gradient(110deg, rgba(209,25,25,0.80) 0%, rgba(20,164,68,0.65) 100%), url('https://loremflickr.com/1600/600/lemon,pickle,jar?lock=hero2');">
+                                <div class="rp-hero-card">
+                                    <span class="rp-hero-eyebrow rp-hero-eyebrow-accent">Bestseller</span>
+                                    <h1 class="rp-hero-title">Garhwa's favourite Lemon Achaar — now pan-India.</h1>
+                                    <p class="rp-hero-sub">From 100g pocket-packs to a full 1 kg jar. Free shipping above &#8377;499.</p>
+                                    <a href="#" class="btn rp-btn-primary btn-lg">Buy now</a>
+                                </div>
                             </div>
                         </div>
-                        <div class="carousel-item rp-hero-slide rp-hero-slide-3">
-                            <div class="rp-hero-card">
-                                <span class="rp-hero-eyebrow">Made by women</span>
-                                <h1 class="rp-hero-title">Every jar supports a Self-Help Group.</h1>
-                                <p class="rp-hero-sub">Tiriya Kisan FPC, Garhwa — FSSAI &amp; GST registered, 100% homemade.</p>
-                                <a href="#" class="btn rp-btn-primary btn-lg">Our story</a>
+                        <div class="carousel-item">
+                            <div class="rp-hero-slide rp-hero-slide-3" style="background-image: linear-gradient(110deg, rgba(13,140,58,0.85) 0%, rgba(255,205,31,0.55) 100%), url('https://loremflickr.com/1600/600/indian,women,kitchen,village?lock=hero3');">
+                                <div class="rp-hero-card">
+                                    <span class="rp-hero-eyebrow">Made by women</span>
+                                    <h1 class="rp-hero-title">Every jar supports a Self-Help Group.</h1>
+                                    <p class="rp-hero-sub">Tiriya Kisan FPC, Garhwa — FSSAI &amp; GST registered, 100% homemade.</p>
+                                    <a href="#" class="btn rp-btn-primary btn-lg">Our story</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -128,22 +129,25 @@
         </section>
 
         <!-- ===== CATEGORY TILES ===== -->
-        <section class="rp-section rp-categories">
+        <section class="rp-section rp-categories rp-has-blobs">
+            <span class="rp-blob rp-blob-shape-1 rp-blob-tl rp-blob-green" aria-hidden="true"></span>
+            <span class="rp-blob rp-blob-shape-2 rp-blob-br rp-blob-red" aria-hidden="true"></span>
             <div class="container">
                 <div class="rp-section-head"><h2 class="rp-section-title">Shop by category</h2></div>
                 <div class="row g-3 g-md-4 row-cols-3 row-cols-md-6 text-center">
-                    <div class="col"><a href="#" class="rp-cat-tile"><span class="rp-cat-tile-img"><img src="https://placehold.co/200x200/2e8b57/ffffff?text=Lemon" alt="Lemon"></span><span class="rp-cat-tile-label">Lemon</span></a></div>
-                    <div class="col"><a href="#" class="rp-cat-tile"><span class="rp-cat-tile-img"><img src="https://placehold.co/200x200/e67e22/ffffff?text=Mango" alt="Mango"></span><span class="rp-cat-tile-label">Mango</span></a></div>
-                    <div class="col"><a href="#" class="rp-cat-tile"><span class="rp-cat-tile-img"><img src="https://placehold.co/200x200/c0392b/ffffff?text=Mirchi" alt="Mirchi"></span><span class="rp-cat-tile-label">Mirchi</span></a></div>
-                    <div class="col"><a href="#" class="rp-cat-tile"><span class="rp-cat-tile-img"><img src="https://placehold.co/200x200/8e44ad/ffffff?text=Garlic" alt="Garlic"></span><span class="rp-cat-tile-label">Garlic</span></a></div>
-                    <div class="col"><a href="#" class="rp-cat-tile"><span class="rp-cat-tile-img"><img src="https://placehold.co/200x200/d4a017/ffffff?text=Bari" alt="Bari"></span><span class="rp-cat-tile-label">Bari</span></a></div>
-                    <div class="col"><a href="#" class="rp-cat-tile"><span class="rp-cat-tile-img"><img src="https://placehold.co/200x200/1f7a3a/ffffff?text=Papads" alt="Papads"></span><span class="rp-cat-tile-label">Papads</span></a></div>
+                    <div class="col"><a href="#" class="rp-cat-tile"><span class="rp-cat-tile-img"><img src="https://loremflickr.com/240/240/lemon,fruit?lock=cat-lemon" alt="Lemon"></span><span class="rp-cat-tile-label">Lemon</span></a></div>
+                    <div class="col"><a href="#" class="rp-cat-tile"><span class="rp-cat-tile-img"><img src="https://loremflickr.com/240/240/mango,fruit?lock=cat-mango" alt="Mango"></span><span class="rp-cat-tile-label">Mango</span></a></div>
+                    <div class="col"><a href="#" class="rp-cat-tile"><span class="rp-cat-tile-img"><img src="https://loremflickr.com/240/240/green,chilli?lock=cat-mirchi" alt="Mirchi"></span><span class="rp-cat-tile-label">Mirchi</span></a></div>
+                    <div class="col"><a href="#" class="rp-cat-tile"><span class="rp-cat-tile-img"><img src="https://loremflickr.com/240/240/garlic?lock=cat-garlic" alt="Garlic"></span><span class="rp-cat-tile-label">Garlic</span></a></div>
+                    <div class="col"><a href="#" class="rp-cat-tile"><span class="rp-cat-tile-img"><img src="https://loremflickr.com/240/240/lentil,beans?lock=cat-bari" alt="Bari"></span><span class="rp-cat-tile-label">Bari</span></a></div>
+                    <div class="col"><a href="#" class="rp-cat-tile"><span class="rp-cat-tile-img"><img src="https://loremflickr.com/240/240/papad,wafer?lock=cat-papad" alt="Papads"></span><span class="rp-cat-tile-label">Papads</span></a></div>
                 </div>
             </div>
         </section>
 
         <!-- ===== BESTSELLERS ===== -->
-        <section class="rp-section rp-bestsellers">
+        <section class="rp-section rp-bestsellers rp-has-blobs">
+            <span class="rp-blob rp-blob-shape-3 rp-blob-tr rp-blob-yellow" aria-hidden="true"></span>
             <div class="container">
                 <div class="rp-section-head">
                     <h2 class="rp-section-title">Bestsellers from the kitchen</h2>
@@ -153,7 +157,7 @@
 
                     <div class="col"><article class="rp-product-card">
                         <a href="#" class="rp-product-link">
-                            <div class="rp-product-img"><img src="https://placehold.co/600x600/2e8b57/ffffff?text=Lemon+Achaar" alt="Lemon Pickle" loading="lazy"><span class="rp-product-tag">Bestseller</span></div>
+                            <div class="rp-product-img"><img src="https://loremflickr.com/600/600/lemon,pickle,jar?lock=p-lemon" alt="Lemon Pickle" loading="lazy"><span class="rp-product-tag">Bestseller</span></div>
                             <div class="rp-product-body">
                                 <h3 class="rp-product-name">Lemon Pickle</h3>
                                 <div class="rp-product-meta"><span class="rp-product-weight">500g</span><span class="rp-product-rating"><i class="bi bi-star-fill"></i> 4.7 <small>(312)</small></span></div>
@@ -168,7 +172,7 @@
 
                     <div class="col"><article class="rp-product-card">
                         <a href="#" class="rp-product-link">
-                            <div class="rp-product-img"><img src="https://placehold.co/600x600/e67e22/ffffff?text=Mango+Achaar" alt="Mango Pickle" loading="lazy"><span class="rp-product-tag">New</span></div>
+                            <div class="rp-product-img"><img src="https://loremflickr.com/600/600/mango,pickle,jar?lock=p-mango" alt="Mango Pickle" loading="lazy"><span class="rp-product-tag">New</span></div>
                             <div class="rp-product-body">
                                 <h3 class="rp-product-name">Mango Pickle</h3>
                                 <div class="rp-product-meta"><span class="rp-product-weight">500g</span><span class="rp-product-rating"><i class="bi bi-star-fill"></i> 4.6 <small>(208)</small></span></div>
@@ -183,7 +187,7 @@
 
                     <div class="col"><article class="rp-product-card">
                         <a href="#" class="rp-product-link">
-                            <div class="rp-product-img"><img src="https://placehold.co/600x600/c0392b/ffffff?text=Mirchi+Achaar" alt="Green Chilli Pickle" loading="lazy"><span class="rp-product-tag">Spicy</span></div>
+                            <div class="rp-product-img"><img src="https://loremflickr.com/600/600/chilli,pickle,jar?lock=p-mirchi" alt="Green Chilli Pickle" loading="lazy"><span class="rp-product-tag">Spicy</span></div>
                             <div class="rp-product-body">
                                 <h3 class="rp-product-name">Green Chilli Pickle</h3>
                                 <div class="rp-product-meta"><span class="rp-product-weight">500g</span><span class="rp-product-rating"><i class="bi bi-star-fill"></i> 4.5 <small>(164)</small></span></div>
@@ -198,7 +202,7 @@
 
                     <div class="col"><article class="rp-product-card">
                         <a href="#" class="rp-product-link">
-                            <div class="rp-product-img"><img src="https://placehold.co/600x600/8e44ad/ffffff?text=Garlic+Achaar" alt="Garlic Pickle" loading="lazy"><span class="rp-product-tag">Limited</span></div>
+                            <div class="rp-product-img"><img src="https://loremflickr.com/600/600/garlic,pickle?lock=p-garlic" alt="Garlic Pickle" loading="lazy"><span class="rp-product-tag">Limited</span></div>
                             <div class="rp-product-body">
                                 <h3 class="rp-product-name">Garlic Pickle</h3>
                                 <div class="rp-product-meta"><span class="rp-product-weight">500g</span><span class="rp-product-rating"><i class="bi bi-star-fill"></i> 4.8 <small>(97)</small></span></div>
@@ -213,7 +217,7 @@
 
                     <div class="col"><article class="rp-product-card">
                         <a href="#" class="rp-product-link">
-                            <div class="rp-product-img"><img src="https://placehold.co/600x600/5d4037/ffffff?text=Mushroom" alt="Mushroom Pickle" loading="lazy"><span class="rp-product-tag">Premium</span></div>
+                            <div class="rp-product-img"><img src="https://loremflickr.com/600/600/mushroom,jar?lock=p-mushroom" alt="Mushroom Pickle" loading="lazy"><span class="rp-product-tag">Premium</span></div>
                             <div class="rp-product-body">
                                 <h3 class="rp-product-name">Mushroom Pickle</h3>
                                 <div class="rp-product-meta"><span class="rp-product-weight">300g</span><span class="rp-product-rating"><i class="bi bi-star-fill"></i> 4.9 <small>(54)</small></span></div>
@@ -230,20 +234,54 @@
             </div>
         </section>
 
-        <!-- ===== TRUST BAND ===== -->
+        <!-- ===== TRUST BAND (Flaticon-style inline SVG icons) ===== -->
         <section class="rp-trustband">
             <div class="container">
-                <div class="row g-3 g-md-0 text-center">
-                    <div class="col-6 col-md-3 rp-trust-item"><i class="bi bi-shield-check"></i><span><strong>FSSAI</strong> registered</span></div>
-                    <div class="col-6 col-md-3 rp-trust-item"><i class="bi bi-receipt"></i><span><strong>GST</strong> registered</span></div>
-                    <div class="col-6 col-md-3 rp-trust-item"><i class="bi bi-house-heart"></i><span><strong>100%</strong> hand-made</span></div>
-                    <div class="col-6 col-md-3 rp-trust-item"><i class="bi bi-truck"></i><span><strong>Pan-India</strong> delivery</span></div>
+                <div class="row g-4 text-center">
+                    <div class="col-6 col-md-3">
+                        <div class="rp-trust-item">
+                            <span class="rp-trust-icon rp-trust-icon-green">
+                                <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M32 4L8 12v18c0 14 10 25 24 30 14-5 24-16 24-30V12L32 4z" fill="currentColor"/><path d="M22 32l8 8 14-16" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+                            </span>
+                            <strong>FSSAI Registered</strong>
+                            <small>Lic. 12345678901234</small>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="rp-trust-item">
+                            <span class="rp-trust-icon rp-trust-icon-red">
+                                <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M14 6h28l8 8v44l-6-4-6 4-6-4-6 4-6-4-6 4V6z" fill="currentColor"/><path d="M22 22h20M22 32h20M22 42h14" stroke="#fff" stroke-width="3" stroke-linecap="round" fill="none"/></svg>
+                            </span>
+                            <strong>GST Registered</strong>
+                            <small>20ABCDE1234F1Z5</small>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="rp-trust-item">
+                            <span class="rp-trust-icon rp-trust-icon-yellow">
+                                <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M32 6L4 28h6v28h44V28h6L32 6z" fill="currentColor"/><path d="M32 38c-4-4-9-2-9 2.5 0 5 9 11.5 9 11.5s9-6.5 9-11.5c0-4.5-5-6-9-2.5z" fill="#fff"/></svg>
+                            </span>
+                            <strong>100% Hand-made</strong>
+                            <small>Women SHG, Garhwa</small>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="rp-trust-item">
+                            <span class="rp-trust-icon rp-trust-icon-green">
+                                <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M4 18h32v22H4z" fill="currentColor"/><path d="M36 24h14l8 8v8H36z" fill="currentColor"/><circle cx="16" cy="46" r="6" fill="#fff"/><circle cx="46" cy="46" r="6" fill="#fff"/><circle cx="16" cy="46" r="3" fill="currentColor"/><circle cx="46" cy="46" r="3" fill="currentColor"/></svg>
+                            </span>
+                            <strong>Pan-India Delivery</strong>
+                            <small>4–7 day shipping</small>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- ===== NEW ARRIVALS ===== -->
-        <section class="rp-section rp-newarrivals">
+        <section class="rp-section rp-newarrivals rp-has-blobs">
+            <span class="rp-blob rp-blob-shape-2 rp-blob-tl rp-blob-red" aria-hidden="true"></span>
+            <span class="rp-blob rp-blob-shape-1 rp-blob-br rp-blob-green" aria-hidden="true"></span>
             <div class="container">
                 <div class="rp-section-head">
                     <h2 class="rp-section-title">New from the kitchen</h2>
@@ -253,7 +291,7 @@
 
                     <div class="col"><article class="rp-product-card">
                         <a href="#" class="rp-product-link">
-                            <div class="rp-product-img"><img src="https://placehold.co/600x600/d4a017/ffffff?text=Soya+Bari" alt="Soya Bari" loading="lazy"><span class="rp-product-tag">Protein</span></div>
+                            <div class="rp-product-img"><img src="https://loremflickr.com/600/600/soya,chunks?lock=p-soya" alt="Soya Bari" loading="lazy"><span class="rp-product-tag">Protein</span></div>
                             <div class="rp-product-body">
                                 <h3 class="rp-product-name">Soya Bari</h3>
                                 <div class="rp-product-meta"><span class="rp-product-weight">200g</span><span class="rp-product-rating"><i class="bi bi-star-fill"></i> 4.6 <small>(78)</small></span></div>
@@ -268,7 +306,7 @@
 
                     <div class="col"><article class="rp-product-card">
                         <a href="#" class="rp-product-link">
-                            <div class="rp-product-img"><img src="https://placehold.co/600x600/a0522d/ffffff?text=Urid+Bari" alt="Urid Bari" loading="lazy"><span class="rp-product-tag">Traditional</span></div>
+                            <div class="rp-product-img"><img src="https://loremflickr.com/600/600/lentil,bowl?lock=p-uridbari" alt="Urid Bari" loading="lazy"><span class="rp-product-tag">Traditional</span></div>
                             <div class="rp-product-body">
                                 <h3 class="rp-product-name">Urid Bari</h3>
                                 <div class="rp-product-meta"><span class="rp-product-weight">200g</span><span class="rp-product-rating"><i class="bi bi-star-fill"></i> 4.7 <small>(62)</small></span></div>
@@ -283,7 +321,7 @@
 
                     <div class="col"><article class="rp-product-card">
                         <a href="#" class="rp-product-link">
-                            <div class="rp-product-img"><img src="https://placehold.co/600x600/d35400/ffffff?text=Masala+Papad" alt="Masala Papad" loading="lazy"><span class="rp-product-tag">Crispy</span></div>
+                            <div class="rp-product-img"><img src="https://loremflickr.com/600/600/papad,indian,snack?lock=p-masala" alt="Masala Papad" loading="lazy"><span class="rp-product-tag">Crispy</span></div>
                             <div class="rp-product-body">
                                 <h3 class="rp-product-name">Masala Papad</h3>
                                 <div class="rp-product-meta"><span class="rp-product-weight">200g</span><span class="rp-product-rating"><i class="bi bi-star-fill"></i> 4.5 <small>(41)</small></span></div>
@@ -298,7 +336,7 @@
 
                     <div class="col"><article class="rp-product-card">
                         <a href="#" class="rp-product-link">
-                            <div class="rp-product-img"><img src="https://placehold.co/600x600/8b6f47/ffffff?text=Urid+Papad" alt="Urid Papad" loading="lazy"><span class="rp-product-tag">Classic</span></div>
+                            <div class="rp-product-img"><img src="https://loremflickr.com/600/600/papad,wafer,crisp?lock=p-uridpapad" alt="Urid Papad" loading="lazy"><span class="rp-product-tag">Classic</span></div>
                             <div class="rp-product-body">
                                 <h3 class="rp-product-name">Urid Papad</h3>
                                 <div class="rp-product-meta"><span class="rp-product-weight">200g</span><span class="rp-product-rating"><i class="bi bi-star-fill"></i> 4.4 <small>(33)</small></span></div>
@@ -313,7 +351,7 @@
 
                     <div class="col"><article class="rp-product-card">
                         <a href="#" class="rp-product-link">
-                            <div class="rp-product-img"><img src="https://placehold.co/600x600/1f7a3a/ffffff?text=Trio+Combo" alt="Achaar Trio Combo" loading="lazy"><span class="rp-product-tag">Combo</span></div>
+                            <div class="rp-product-img"><img src="https://loremflickr.com/600/600/pickle,jars,collection?lock=p-trio" alt="Achaar Trio Combo" loading="lazy"><span class="rp-product-tag">Combo</span></div>
                             <div class="rp-product-body">
                                 <h3 class="rp-product-name">Achaar Trio Combo</h3>
                                 <div class="rp-product-meta"><span class="rp-product-weight">600g</span><span class="rp-product-rating"><i class="bi bi-star-fill"></i> 4.8 <small>(121)</small></span></div>
@@ -331,20 +369,36 @@
         </section>
 
         <!-- ===== STORYBAND ===== -->
-        <section class="rp-storyband">
+        <section class="rp-storyband rp-has-blobs">
+            <span class="rp-blob rp-blob-shape-1 rp-blob-tr rp-blob-green" aria-hidden="true"></span>
             <div class="container">
                 <div class="row align-items-center g-4">
                     <div class="col-md-5">
-                        <img src="https://placehold.co/700x500/14532d/ffffff?text=SHG+Women+of+Garhwa" alt="SHG women of Garhwa preparing pickles" class="rp-storyband-img">
+                        <img src="https://loremflickr.com/700/500/india,village,women,cooking?lock=story" alt="SHG women of Garhwa preparing pickles" class="rp-storyband-img">
                     </div>
                     <div class="col-md-7">
                         <span class="rp-eyebrow">Our story</span>
                         <h2 class="rp-storyband-title">From the kitchens of Garhwa to your dining table</h2>
                         <p>Riya is the brand of <strong>Tiriya Kisan Farmer Producer Company Ltd.</strong> — a Self-Help Group of women farmers from Garhwa, Jharkhand. Every jar you buy supports a household in rural India.</p>
                         <ul class="rp-storyband-points">
-                            <li><i class="bi bi-check2-circle"></i> Cold-pressed mustard oil base</li>
-                            <li><i class="bi bi-check2-circle"></i> No preservatives, no artificial colours</li>
-                            <li><i class="bi bi-check2-circle"></i> Slow sun-cured, the way grandma made it</li>
+                            <li>
+                                <span class="rp-mini-icon rp-mini-icon-green">
+                                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 16.2l-3.5-3.5a1 1 0 1 1 1.4-1.4L9 13.4l7.1-7.1a1 1 0 1 1 1.4 1.4L9 16.2z" fill="currentColor"/></svg>
+                                </span>
+                                Cold-pressed mustard oil base
+                            </li>
+                            <li>
+                                <span class="rp-mini-icon rp-mini-icon-green">
+                                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 16.2l-3.5-3.5a1 1 0 1 1 1.4-1.4L9 13.4l7.1-7.1a1 1 0 1 1 1.4 1.4L9 16.2z" fill="currentColor"/></svg>
+                                </span>
+                                No preservatives, no artificial colours
+                            </li>
+                            <li>
+                                <span class="rp-mini-icon rp-mini-icon-green">
+                                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 16.2l-3.5-3.5a1 1 0 1 1 1.4-1.4L9 13.4l7.1-7.1a1 1 0 1 1 1.4 1.4L9 16.2z" fill="currentColor"/></svg>
+                                </span>
+                                Slow sun-cured, the way grandma made it
+                            </li>
                         </ul>
                         <a href="#" class="btn rp-btn-outline">Read our story</a>
                     </div>
@@ -428,7 +482,6 @@
         </div>
     </footer>
 
-    <!-- Shared modal (replaces all alert/confirm/prompt site-wide) -->
     <div class="modal fade" id="rp-modal" tabindex="-1" aria-hidden="true" aria-labelledby="rp-modal-title">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
